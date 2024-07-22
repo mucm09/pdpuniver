@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    margin: 20px 100px;
+    gap: 20px;
+    box-sizing: 0px 0px 500px 150px;
+
+}
+.logo1{
+    padding-top: 15px;
+
+}
+.logo img{
+    box-shadow: 10px 100px 701px 100px green;
+    border-radius: 50%;
+}
+.login{
+    color: #fff;
+    margin: 200px 600px;
+text-align: center;
+}
+.login input{ 
+    margin-top: 10px;
+    width: 335px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid green;
+
+}
+.signup{
+    margin-top:10px;
+    width: 335px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid green;
+}
+.google{
+    margin-top: 10px;
+    display: flex;
+    width: 330px;
+    height: 35px;
+    border-radius: 10px;
+    /* justify-content: space-around; */
+    color: black;
+    background-color: #fff;
+    border: 2px solid green;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    gap: 110px;
+}
+
